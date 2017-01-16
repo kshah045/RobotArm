@@ -22,14 +22,7 @@ public class RobotArm {
      * @param numberOfRows number of rows present in the location
      * @param numberOfColumns number of columns of the location
      */
-    public RobotArm(Integer numberOfRows, Integer numberOfColumns) {
-        int[][] index = new int[5][5];
-
-        if (numberOfColumns == numberOfRows)
-            System.out.println(numberOfColumns);
-
-         throw new UnsupportedOperationException();
-    }
+    public RobotArm(Integer numberOfRows, Integer numberOfColumns) {throw new UnsupportedOperationException();}
 
 
     /**
